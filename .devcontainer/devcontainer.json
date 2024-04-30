@@ -11,6 +11,13 @@
     "WORKSPACE_DIRECTORY": "${containerWorkspaceFolder}"
   },
   "customizations": {
+    "codespaces": {
+      "repositories": {
+        "Arterial-Tor/core": {
+          "permissions": "write-all"
+        }
+      }
+    },
     "vscode": {
       "extensions": [
         "dbaeumer.vscode-eslint",
